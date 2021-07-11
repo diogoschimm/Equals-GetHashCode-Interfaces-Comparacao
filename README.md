@@ -26,7 +26,7 @@ namespace IgualdadeObjetos
         }
 
         /// <summary>
-        /// Algumas construções fazem o teste do HashCode para depois chamar o Equals
+        /// Algumas construções fazem o teste do HashCode para depois chamar o Equals (Performance na comparação de inteiros)
         /// if (a.GetHashCode() == b.GetHashCode()) 
         ///     if (a.Equals(b))
         /// </summary>
